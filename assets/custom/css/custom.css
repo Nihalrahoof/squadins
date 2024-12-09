@@ -31,11 +31,20 @@
      21. general styles
      
 */
+@font-face {
+    font-family: 'Houschka-medium';
+    src: url('../fonts//HouschkaMediumRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-    
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Houschka-medium'!important;
+}
+  
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Basis-regular', sans-serif;
 }
 /*************** search icon *********************/
 #search {
