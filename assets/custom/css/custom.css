@@ -31,6 +31,17 @@
      21. general styles
      
 */
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.animated-element {
+    -webkit-animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
 @font-face {
     font-family: 'Houschka-medium';
     src: url('../fonts//HouschkaMediumRegular.ttf') format('truetype');
