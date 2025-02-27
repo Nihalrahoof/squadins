@@ -408,7 +408,7 @@
     margin: 0 4px 0 0;
 }
 .fables-logo {
-    width: 80px;
+    width: 120px;
 }
 .fables-blog-cat-list li { 
     margin-right: 4%;
@@ -670,7 +670,7 @@
 .fables-transparent{
     position: relative;
     z-index: 699;
-    background-color: #2C3E4F;
+    background-color: #c1d6ea;
 }
 .max-line-height {
     line-height: 50px;
